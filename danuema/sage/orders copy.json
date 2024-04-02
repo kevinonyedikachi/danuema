@@ -1,0 +1,94 @@
+[
+    {
+
+        "payment_with_order": true,
+
+        "payment_value": 21.49,
+        "payment_method_id": 91691,
+        "payment_undeclared": 21.49,
+
+        "customer_id": 90629,
+
+        "customer_document_no": "203-1745389-8669957",
+
+        "document_created_by": "NES_API",
+        "requested_delivery_date": "2024-03-10T00:00:00Z",
+        "promised_delivery_date": "2024-03-10T00:00:00Z",
+
+        "order_priority": "E",
+        
+        "analysis_code_1": "203-1745389-8669957",
+        "analysis_code_2": "DHL DAP",
+        "analysis_code_3": "0",
+        "analysis_code_4": "",
+        "analysis_code_5": "",
+        "analysis_code_6": "H",
+        "analysis_code_7": "P",
+        "analysis_code_8": "",
+        "analysis_code_9": "",
+        "analysis_code_10": "",
+        "analysis_code_11": "",
+        "analysis_code_12": "",
+        "analysis_code_13": "",
+        "analysis_code_14": "",
+        "analysis_code_15": "",
+        "analysis_code_16": "2024-03-08 15:44:33",
+        "analysis_code_17": "",
+        "analysis_code_18": "",
+        "analysis_code_19": "",
+        "analysis_code_20": "",
+ 
+        "delivery_address": {
+            "contact": "Aoife Flanagan",
+            "postal_name": "Aoife Flanagan",
+            "country": "IE",
+            "telephone_number": "0872704131",
+            "fax_number": "",
+            "email_address": "",
+
+            "tax_number": "",
+            "tax_code_id": 173545931,
+            "country_code_id": 100099,
+
+            "address_1": "5 Rockville Court",
+            "address_2": "Glenamuck Road",
+            "address_3": "",
+            "address_4": "",
+            "city": "Dublin 18",
+            "county": "",
+            "postcode": "D18P70K"
+        },
+
+        "lines": [
+            {
+                "line_type": "EnumLineTypeStandard",
+                "code": "80087",
+                "description": "KE Gel Kegel Exercise Lubricant Bottle",
+     
+
+                "line_quantity": 1.0,
+                "selling_unit_price": 10.99,
+                
+                "unit_discount_value": 0,
+                 
+        
+        
+      
+                "requested_delivery_date": "2024-03-08T00:00:00Z",
+                "product_id": 115196,
+                "warehouse_id": 110294514       
+            },
+            {
+                "line_type": "EnumLineTypeCharge",              
+                "code": "Carriage",
+                "description": "Delivery",
+
+
+                "line_quantity": 1.0,
+                "selling_unit_price": 8.54
+
+            }
+        ]
+
+    }
+]

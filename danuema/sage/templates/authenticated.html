@@ -1,0 +1,14 @@
+<!-- authenticated.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticated View</title>
+</head>
+<body>
+    <h1>Welcome to the Authenticated View</h1>
+    <p>Your access token is: {{ data }}</p>
+    <a href="{% url 'initiate_auth' %}">Get Access Token</a>
+</body>
+</html>
