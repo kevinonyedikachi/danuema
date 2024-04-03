@@ -13,16 +13,19 @@ pip freeze > requirements.txt
 git init
 git add .
 git commit -m "Initial commit"
-git pull origin main --allow-unrelated-histories # if folder already has code
+
 git remote add origin <repository_url>
 git push -u origin master
+git push -f origin master
+
+git pull origin main --allow-unrelated-histories # if folder already has code
 
 git checkout -b main
 git branch
 git config --global user.email
 git config --global user.email "78689393+kevinonyedikachi@users.noreply.github.com"
 
-Remove-Item -Path .\.git -Force -Recurse
+Remove-Item -Path .\.git -Force -Recurse # remove git in window
 
 # Create .env file for credentials
 
