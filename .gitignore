@@ -3,4 +3,4 @@ db.sqlite3
 **/.env
 .DS_Store
 __pycache__
-env_vars.txt
+
