@@ -1,6 +1,7 @@
 # Docker
 
 docker images
+docker build -t <appname> .
 
 # Docker compose
 
